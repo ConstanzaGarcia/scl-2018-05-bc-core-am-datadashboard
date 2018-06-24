@@ -1,0 +1,120 @@
+.col-sm-9 {
+    background-color: yellow;
+    font-family: 'Bitter', serif;
+    border: 2px solid white;
+    padding: 8px;
+    font-size: 25px;
+}
+
+img {
+    width: 100%;
+}
+
+
+p {
+    border: 1px solid powderblue;
+    padding: 30px;
+}
+
+/*
+.mi_tabla {
+    position: absolute;
+    text-align: left;
+    border: 2px solid rgb(133, 132, 132);
+    font-size: 15px;
+    width: 120px;
+}
+
+*/
+
+td {
+    text-align: center; 
+}
+
+#textouno {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#textodos {
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.colorfucsia {
+    border: #FF009E solid 2px;
+    color: black;
+    padding: 5%;
+    text-align: center;
+}
+
+
+.colorceleste {
+    border: #56F89A solid 2px;
+    text-align: center;
+    padding: 5%;
+}
+
+p {
+    border: #56F89A solid 2px;
+    padding: 30px;
+    text-align: center;
+}
+
+
+.row_seleccion {
+    padding: 5px;
+}
+
+.flex-column {
+    width: 200px; /* Set a width if you like */
+}
+
+.flex-column a {
+    background-color: #FFE521; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.flex-column a:hover {
+    background-color: #56F89A; /* Dark grey background on mouse-over */
+}
+
+.flex-column a.active {
+    background-color: #FF009E; /*color verde del enlace "activo / actual"  */
+    color: white;
+}
+
+.btn-sm {
+    background-color: #56F89A; 
+    border-color:  #56F89A;
+}
+.btn-sm:hover {
+    background-color: #FF009E;; 
+    border-color: #56F89A;
+
+}
+
+.thead-dark {
+    background-color: #FF009E;
+}
+
+#barraB {
+    margin: 20px 0px 0px 0px;
+}
+
+.search {
+    margin: 20px 0px 0px 0px;
+}
+
+#lista {
+    margin: 20px 0px;
+}
