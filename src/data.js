@@ -61,8 +61,27 @@ window.onload = () => {
     });
   };
 
+  // Esta función recibe tres parametros.  Que ve el progreso del alumno 
   window.computeUsersStats = (users, progress, courses) => {
+    for (let i = 0; i < users.length; i++) {
+      let userId = users[i].id; //Busca el ID de las alumnas
+      let userProgress = progress[usersId]; //users es un array y progress es un objeto
+      for (j = 0; j < userProgress.length; j++) {
+        if (JSON.stringify(userProgress[j]) === '{}') { // si es el progreso esta vacio rellena con 0
+          user[i] = {
+            stats: 0,
+            exercises: { percent: 0, },
+            reads: { percent: 0, },
+            quizzes: {
+              percent: 0,
+              scoreAvg: 0,
+            }
 
+          }
+        }
+      }
+
+    }
   };
 
   window.sortUsers = (users, orderBy, orderDirection) => {
